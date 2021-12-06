@@ -41,9 +41,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 10px;
+  flex-shrink: 0;
   margin-right: 10px;
-  flex: 0 0  auto;
 }
 
 .header{
