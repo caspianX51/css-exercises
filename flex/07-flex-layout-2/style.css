@@ -14,17 +14,23 @@ body {
   background: darkmagenta;
   color: white;
   align-items: center;
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
 }
+
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content{
+  /* border: solid red 2px; */
   display: flex;
   flex-grow: 1;
 }
@@ -34,8 +40,44 @@ body {
   flex-shrink: 0;
 }
 
+.cardss{
+  margin-left: 40px;
+  display: flex;
+  /* border: solid red 2px; */
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: 32px;
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+  margin: 10px;
+  /* border: solid red 2px; */
+  flex-shrink: 1;
+  width: 350px;
+  padding: 20px;
+  box-shadow:   4px 5px 10px rgb(224, 224, 224);
+  margin: 20px;
 }
+
+ul{
+  margin-top: 0px;
+  list-style-type: none;
+  padding: 16px;
+}
+
+li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+/* border: solid red 2px; */
